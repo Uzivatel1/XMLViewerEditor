@@ -44,7 +44,7 @@ namespace XMLViewerEditor
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error loading XML: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Chyba pøi otevøení XML: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     ClearAll(); // Vyprázdnìní TreeView pøi chybì.
                 }
             }
@@ -63,7 +63,7 @@ namespace XMLViewerEditor
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error saving XML: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Chyba pøi uložení XML: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
